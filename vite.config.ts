@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // Set base for GitHub Pages deployment under a repo subpath
-      base: '/mycomatters/',
+      // Set base for Vercel / root deployment
+      base: '/',
       server: {
         port: 5173,
         host: '0.0.0.0',
