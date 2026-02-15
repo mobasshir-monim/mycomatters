@@ -4,14 +4,14 @@ import { Linkedin, Mail, BadgeCheck, Users, Trophy, TrendingUp } from 'lucide-re
 
 const Team: React.FC = () => {
   const members = [
-    { name: "Md. Naiem Mobasshir Monim", role: "CEO", bio: "Mechanical Engineer, Engineering a greener future through sustainable mycelium packaging", img: "Assets/FB_IMG_1771013343419~2.jpg" },
-    { name: "Shafia Tasnim Samonti", role: "CMO", bio: "Industrial and Production Engineer, Branding expert focused on sustainable industrial marketing and B2B partnerships.", img: "Assets/photo_6088886041197612730_y.jpg" },
-    { name: "Nahian Prapon Jaman", role: "CTO", bio: "Mechanical Engineer with expertise in sustainable manufacturing and biotech innovation.", img: "Assets/IMG_20240318_222456_189.JPG" },
-    { name: "Tamanna Sultana", role: "CFO", bio: "Strategic finance lead with experience in scaling high-impact biotech ventures in Dhaka.", img: "Assets/photo_6086918744312581903_y.jpg" }
+    { name: "Md. Naiem Mobasshir Monim", role: "CEO", bio: "Mechanical Engineer, Engineering a greener future through sustainable mycelium packaging", img: "/Assets/FB_IMG_1771013343419~2.jpg" },
+    { name: "Shafia Tasnim Samonti", role: "CMO", bio: "Industrial and Production Engineer, Branding expert focused on sustainable industrial marketing and B2B partnerships.", img: "/Assets/photo_6088886041197612730_y.jpg" },
+    { name: "Nahian Prapon Jaman", role: "CTO", bio: "Mechanical Engineer with expertise in sustainable manufacturing and biotech innovation.", img: "/Assets/IMG_20240318_222456_189.JPG" },
+    { name: "Tamanna Sultana", role: "CFO", bio: "Strategic finance lead with experience in scaling high-impact biotech ventures in Dhaka.", img: "/Assets/photo_6086918744312581903_y.jpg" }
   ];
 
   const advisors = [
-    { name: "Mohammad Firoj Jaman", role: "Professor", bio: "Department of Zoology, University of Dhaka.", img: "Assets/DSC_8321.JPG" }
+    { name: "Mohammad Firoj Jaman", role: "Professor", bio: "Department of Zoology, University of Dhaka.", img: "/Assets/DSC_8321.JPG" }
   ];
 
   return (

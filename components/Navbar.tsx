@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-3">
-            <img src="Assets/logo.png" alt="MycoMatters" className="h-12" />
+            <img src="/Assets/logo.png" alt="MycoMatters" className="h-12" />
             <span className="text-2xl font-extrabold text-emerald-900 tracking-tight">MYCO<span className="text-emerald-600">MATTERS</span></span>
           </Link>
 

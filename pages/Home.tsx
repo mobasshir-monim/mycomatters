@@ -9,17 +9,17 @@ const Home: React.FC = () => {
     {
       title: "Electronics Inserts",
       desc: "High-precision molded packaging designed to protect delicate electronic products during shipping.",
-      img: "Assets/Gemini_Generated_Image_vtfa8ovtfa8ovtfa.png",
+      img: "/Assets/Gemini_Generated_Image_vtfa8ovtfa8ovtfa.png",
     },
     {
       title: "SME Fragile Packs",
       desc: "Bespoke packaging solutions for cosmetics, perfumes, and other premium fragile consumer goods.",
-      img: "Assets/Gemini_Generated_Image_b00he7b00he7b00h.png",
+      img: "/Assets/Gemini_Generated_Image_b00he7b00he7b00h.png",
     },
     {
       title: "Phone Box Inserts",
       desc: "Sleek, shock-absorbent trays tailored for the mobile device industry, offering premium unboxing experiences.",
-      img: "Assets/Gemini_Generated_Image_j72jmlj72jmlj72j.png",
+      img: "/Assets/Gemini_Generated_Image_j72jmlj72jmlj72j.png",
     }
   ];
 
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
               {/* Main Hero Image with Float and Hover Effects - Removed Rotation */}
               <div className="relative z-10 animate-float-slow hero-image-hover transition-all duration-700 ease-out transform group-hover:scale-110">
                 <img 
-                  src="Assets/20250803_222341.jpg" 
+                  src="/Assets/20250803_222341.jpg" 
                   alt="Mycelium Packaging Tray" 
                   className="w-full max-w-lg mx-auto rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10 group-hover:shadow-[0_20px_70px_rgba(16,185,129,0.3)] group-hover:brightness-110 transition-all duration-700"
                 />
