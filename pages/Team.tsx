@@ -33,7 +33,7 @@ const Team: React.FC = () => {
             {members.map((m, i) => (
               <div key={i} className="group">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden mb-6 shadow-lg border border-slate-100">
-                  <img src={m.img} alt={m.name} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                  <img src={m.img} alt={m.name} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" loading="lazy" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-1">{m.name}</h3>
                 <p className="text-emerald-700 font-semibold text-sm mb-4 uppercase tracking-wider">{m.role}</p>
@@ -58,7 +58,7 @@ const Team: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {advisors.map((a, i) => (
                 <div key={i} className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm flex items-center space-x-4">
-                  <img src={a.img} alt={a.name} className="w-16 h-16 rounded-full object-cover shrink-0" />
+                  <img src={a.img} alt={a.name} className="w-16 h-16 rounded-full object-cover shrink-0" loading="lazy" />
                   <div>
                     <h4 className="font-bold">{a.name}</h4>
                     <p className="text-xs text-slate-600 font-semibold mb-1">{a.role}</p>

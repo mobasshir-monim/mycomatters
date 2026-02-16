@@ -55,14 +55,11 @@ const Home: React.FC = () => {
                   src="/Assets/20250803_222341.jpg" 
                   alt="Mycelium Packaging Tray" 
                   className="w-full max-w-lg mx-auto rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10 group-hover:shadow-[0_20px_70px_rgba(16,185,129,0.3)] group-hover:brightness-110 transition-all duration-700"
+                  loading="lazy"
                 />
-                
-                {/* Floating "Biotech" Badge */}
-                <div className="absolute -bottom-6 -right-6 bg-white/10 backdrop-blur-xl border border-white/20 p-4 rounded-2xl shadow-2xl transform transition-transform duration-500 group-hover:translate-x-4 group-hover:-translate-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></div>
-                    <span className="text-xs font-bold uppercase tracking-widest">Grown in Dhaka</span>
-                  </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></div>
+                  <span className="text-xs font-bold uppercase tracking-widest">Grown in Dhaka</span>
                 </div>
               </div>
             </div>
@@ -111,6 +108,7 @@ const Home: React.FC = () => {
                     src={product.img} 
                     alt={product.title} 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-8 text-left">
